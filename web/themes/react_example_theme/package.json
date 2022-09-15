@@ -1,0 +1,31 @@
+{
+  "name": "react_example_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/src/index.jsx",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode=production",
+    "build:dev": "webpack",
+    "start": "webpack --watch",
+    "start:hmr": "webpack-dev-server --hot --progress --color"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
+    "node-nightly": "^1.8.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.13.0"
+  }
+}
